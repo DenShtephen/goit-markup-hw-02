@@ -1,0 +1,157 @@
+/* Кольра до макету.
+Text big and footer and heder:#2E2F42
+Fon 1:#E5E5E5
+Fon 2:#F4F4FD
+Text small:#434455
+Logo:#4D5AE5
+*/
+
+:root{
+    --Text-of-page:#2E2F42;
+    }
+:root{
+    --Text-of-small: #434455;
+}
+/* Badik */
+body{
+    color:#434455;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+}
+.list{
+list-style: none;
+}
+/*ALL HEAD*/
+.head{
+    background-color: #E7E9FC;
+}
+.head .logo{
+    color: #2E2F42;
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.7;
+        text-decoration: none;
+}
+.head .head-main:active,
+.head .head-main:focus{
+color:#404BBF;
+}
+.head-main{
+   color: var(--Text-of-page);
+   
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-decoration: none;
+}
+.head .head-email:active,
+.head .head-email:focus{
+    color: #404BBF;
+}
+.head-email{
+ color: var(--Text-of-small);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.head-phone{
+    color: var(--Text-of-small);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-decoration: none;
+}
+/*Hero*/
+.hero{
+    background-color: var(--Text-of-page);
+}
+.hero-text{
+    color: #ffffff;
+    
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1;
+        text-align: center;
+}
+/*Sections*/
+.section-main{
+    color: var(--Text-of-page);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.section-text{
+    color: var(--Text-of-small);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.text{
+    color: #2E2F42;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.section-dad{
+    background-color: #F4F4FD;
+}
+.section-dad-main{
+    color: var(--Text-of-page);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.section-dad-title{
+    color: var(--Text-of-page);
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+.section-dad-text{
+    color: var(--Text-of-small);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+}
+.footer{
+    background-color: var(--Text-of-page);
+}
+.footer-logo{
+    color: #F4F4FD;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.7;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer-text{
+    color: #F4F4FD;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+/*Button sett*/
+
+.button-main{
+    background-color: #4D5AE5;
+    cursor: pointer
+}
+.button-main:hover,
+.button-main:focus{
+background-color: #404BBF;
+} 
