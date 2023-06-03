@@ -27,12 +27,25 @@ list-style: none;
     background-color: #E7E9FC;
 }
 .head .logo{
-    color: #2E2F42;
-    font-family: 'Raleway';
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 1.17;
+        text-transform: uppercase;
         text-decoration: none;
+        letter-spacing: 0.03em;
+}
+.link{
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+
 }
 .head .head-main:active,
 .head .head-main:focus{
@@ -134,7 +147,6 @@ font-weight: 500;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.7;
-        display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
