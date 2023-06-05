@@ -47,16 +47,21 @@ list-style: none;
 text-decoration: none;
 }
 .link-email{
+    color: var(--slate-color)
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 .link-phone{
+color: var(--slate-color)
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+}
+.item{
+font-style: normal
 }
 /*----------------Section main HERO------------------*/
 .section-hero{
@@ -66,8 +71,9 @@ line-height: 24px;
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em
 }
 /*--------------------Section main 1--------------------*/
 .section{
@@ -91,26 +97,33 @@ line-height: 24px;
     background-color: #fff;
 }
 .section-work-title{
+    color:#2e2f42;
     font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
 }
 /*------------------------Section main 3------------------*/
 .section-team{
     background-color: var(--cloud-color);
 }
 .section-team-title{
+    color:#2e2f42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
 }
 .section-team-subtitle{
+ color:#2e2f42; 
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
+letter-spacing: 0.02em;
 }
 .section-team-text{
     font-weight: 400;
@@ -149,29 +162,57 @@ font-weight: 500;
 
 }
 .section-portfolio-text{
-color: var(--slate-color);
+color: #434455;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 }
+
 /*----------------------------Buttons and Navigation--------------------------------------*/
 .button-main{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background-color: var(--iris-color);
     cursor: pointer;
 }
 .button-main:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background-color: var(--ocean-color);
 }
-.links:active{
+.links:active, :focus, :hover{
 color: var(--ocean-color);
 }
-.link-email:active{
+.link-email:active, :hover{
+color: var(--ocean-color);
+}
+.link-phone:active, :hover{
 color: var(--ocean-color);
 }
 .button-portfolio{
-background-color: var(--cornflower-color);
+color:#4d5ae5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #F4F4FD;
 cursor: pointer;
 }
-.button-portfolio:hover{
+.button-portfolio:hover, :focus, :active{
+color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 background-color: var(--ocean-color);
 }
