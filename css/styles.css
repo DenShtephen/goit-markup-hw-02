@@ -35,12 +35,11 @@ body{
 .logo{
 color: var(--navy-blue-color);
 }
-.links{
+.nav-link{
 color: var(--navy-blue-modal);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-text-decoration: none;
 }
 .list{
 list-style: none;
@@ -179,7 +178,7 @@ line-height: 1.5;
     background-color: var(--iris-color);
     cursor: pointer;
 }
-.button-main :hover{
+.button-main:hover{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -187,14 +186,17 @@ line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: var(--ocean-color);
-}
-.links :active, :focus, :hover{
+} 
+.nav-link:focus, 
+.nav-link:hover{
 color: var(--ocean-color);
 }
-.link-email :active, :hover{
+.link-email:focus, 
+.link-email:hover{
 color: var(--ocean-color);
 }
-.link-phone :active, :hover{
+.link-phone:focus, 
+.link-phone:hover{
 color: var(--ocean-color);
 }
 .button-portfolio{
@@ -207,7 +209,8 @@ letter-spacing: 0.04em;
 background-color: #F4F4FD;
 cursor: pointer;
 }
-.button-portfolio :hover, :focus, :active{
+.button-portfolio:hover, 
+.button-portfolio:focus{
 color: #FFFFFF;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
