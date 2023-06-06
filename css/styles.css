@@ -40,6 +40,7 @@ color: var(--navy-blue-modal);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .list{
 list-style: none;
@@ -158,6 +159,7 @@ color: var(--navy-blue-color);
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 
 }
 .section-portfolio-text{
@@ -165,6 +167,7 @@ color: #434455;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em
 }
 
 /*----------------------------Buttons and Navigation--------------------------------------*/
@@ -178,7 +181,8 @@ line-height: 1.5;
     background-color: var(--iris-color);
     cursor: pointer;
 }
-.button-main:hover{
+.button-main:hover
+.button-main:focus{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
